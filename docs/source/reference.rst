@@ -12,7 +12,7 @@
 SiteXML Reference
 ************************
 
-.. include:: level-sera_quakeml.rst
+.. include:: level-preamble.rst
 .. include:: level-siteowner.rst
 .. include:: level-sitedescription.rst
 .. include:: level-sitecharacterizationparameters.rst

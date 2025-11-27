@@ -20,9 +20,15 @@ Version: |doc_version|
    :numbered: 3
 
    Contents <self>
+   overview
    reference
+   appendices
+   Specification home <https://www.orfeus-eu.org/xml/site/>
+   ORFEUS home <https://www.orfeus-eu.org/>
 
 Indices and tables
 ==================
 
+* :doc:`overview`
 * :doc:`reference`
+* :doc:`appendices`
