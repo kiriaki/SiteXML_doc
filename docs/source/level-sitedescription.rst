@@ -944,6 +944,12 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteClassEC8Reference :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` literatureSource :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` language
 
+   .. container:: description
+
+      Code of the language.
+
+
+
 
 
 
@@ -1432,6 +1438,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` bedrockDepthReference :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` literatureSource :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` language
+
+   .. container:: description
+
+      Code of the language.
+
+
 
 
 
@@ -1928,6 +1940,12 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` h800Reference :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` literatureSource :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` language
 
+   .. container:: description
+
+      Code of the language.
+
+
+
 
 
 
@@ -2408,6 +2426,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` geologicalUnitReference :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` literatureSource :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` language
+
+   .. container:: description
+
+      Code of the language.
+
+
 
 
 
