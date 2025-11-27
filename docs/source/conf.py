@@ -25,18 +25,20 @@ spelling_word_list_filename=['spelling/text_words.txt',
                              'spelling/schema_words.txt',
                              ]
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    #'sphinx.ext.duration',
+    #'sphinx.ext.doctest',
+    #'sphinx.ext.autodoc',
+    #'sphinx.ext.autosummary',
+    #'sphinx.ext.intersphinx',
+    'sphinxcontrib.contentui',
+    'linuxdoc.rstFlatTable',      # Implementation of the 'flat-table' reST-directive
 ]
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-}
-intersphinx_disabled_domains = ['std']
+#intersphinx_mapping = {
+#    'python': ('https://docs.python.org/3/', None),
+#    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+#}
+#intersphinx_disabled_domains = ['std']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,6 +49,7 @@ templates_path = ['_templates']
 # Note, some of these, like level-*, are included from other .rst files
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store','examples']
                     
+# -- Options for HTML output
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -57,8 +60,8 @@ html_theme_options = {
     'navigation_depth': 0,
     'sticky_navigation': False,
 }
-#html_logo='_static/FDSN-logo.png'
-#html_favicon = '_static/favicon.ico'
+html_logo='_static/FDSN-logo.png'
+html_favicon = '_static/favicon.ico'
 html_title = 'ORFEUS SiteXML'
 html_show_sphinx = False
 html_search_language = 'en'
