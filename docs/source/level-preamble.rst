@@ -64,12 +64,6 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
-   .. container:: description
-
-      The SiteXML schema version of this document.
-
-
-
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -93,12 +87,6 @@
 
 					content type: `dateTime <appendices.html#glossary-datetime>`_
 
-   .. container:: description
-
-      Date that this document was generated
-
-
-
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -117,7 +105,7 @@
       URI of any type of external resource that may include
       site characterization information on this site. May occur more than one time.
 
-      This type contains a URI and description for external data that users
+      This type contains a URI and a description for external data that users
       may want to reference in SiteXML.
 
 
@@ -235,8 +223,8 @@
       :ref:`\<maxDistanceFromStation\><SERA_quakeml-siteDescription-maxDistanceFromStation>`, , "optional" 
       :ref:`\<siteTopography\><SERA_quakeml-siteDescription-siteTopography>`, , "optional" 
       :ref:`\<siteMorphology\><SERA_quakeml-siteDescription-siteMorphology>`, , "optional" 
-      :ref:`\<preferredSiteAnalysisID\><SERA_quakeml-siteDescription-preferredSiteAnalysisID>`, anyURI, ":red:`required`" 
-      :ref:`\<preferredVelocityProfileID\><SERA_quakeml-siteDescription-preferredVelocityProfileID>`, anyURI, ":red:`required`" 
+      :ref:`\<preferredSiteAnalysisID\><SERA_quakeml-siteDescription-preferredSiteAnalysisID>`, anyURI, "optional" 
+      :ref:`\<preferredVelocityProfileID\><SERA_quakeml-siteDescription-preferredVelocityProfileID>`, anyURI, "optional" 
       :ref:`\<overallQindex\><SERA_quakeml-siteDescription-overallQindex>`, , "optional" 
       :ref:`\<comment\><SERA_quakeml-siteDescription-comment>`, , "optional, many" 
 
@@ -277,6 +265,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` latitude
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -355,6 +349,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` longitude
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -431,6 +431,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` altitude
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -509,6 +515,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` minDistanceFromStation
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -586,6 +598,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` maxDistanceFromStation
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -662,6 +680,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteTopography
+
+   .. container:: description
+
+      Quantitative description of the surface.
+
+
 
 
 
@@ -746,6 +770,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology
 
+   .. container:: description
+
+      Site Indicators related to the morpohology of a site.
+
+
+
 
 
 
@@ -800,12 +830,6 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
-   .. container:: description
-
-      This in not included in the QuakeML 2.0 draft
-
-
-
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -829,6 +853,13 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
+   .. container:: description
+
+      Ground type according to Eurocode 8 (EC8 § 3.1.2, Table 3.1),
+      based on the velocityS30 value and the geotechnical description.
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -841,6 +872,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteClassEC8Qindex1
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -918,6 +955,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteClassEC8Reference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -1254,6 +1297,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` bedrockDepth
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -1331,6 +1380,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` bedrockDepthQindex1
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -1407,6 +1462,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` bedrockDepthReference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -1745,7 +1806,7 @@
 
    .. container:: description
 
-      This is not included in the QuakeML 2.0 draft
+      This type is used to represent real values with uncertainty.
 
 
 
@@ -1826,6 +1887,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` h800Qindex1
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -1902,6 +1969,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` h800Reference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -2248,6 +2321,12 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
+   .. container:: description
+
+      Free text description of the surface geology of a site
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -2260,6 +2339,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` geologicalUnitQindex1
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -2348,6 +2433,13 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
+   .. container:: description
+
+      Scale of geological map used for the description of
+      surface geology provided in geologicalUnit
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -2371,6 +2463,13 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
+   .. container:: description
+
+      Description of the surface geology according to a
+      Unified, Pan-European Map
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -2383,6 +2482,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` geologicalUnitReference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -2711,7 +2816,7 @@
 
 .. _sera_quakeml-sitedescription-preferredsiteanalysisid:
 
-<preferredSiteAnalysisID>     :red:`required`
+<preferredSiteAnalysisID>
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. container:: hatnote hatnote-gray
 
@@ -2729,19 +2834,12 @@
 
 					content type: `anyURI <appendices.html#glossary-anyuri>`_
 
-   .. container:: description
-
-      It is mandatory to select one Site Analysis object as the preferred.
-      The Overall Quality index of the Site Characterization will be calculated using the preferred analysis.
-
-
-
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
 .. _sera_quakeml-sitedescription-preferredvelocityprofileid:
 
-<preferredVelocityProfileID>     :red:`required`
+<preferredVelocityProfileID>
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. container:: hatnote hatnote-gray
 
@@ -2771,6 +2869,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` overallQindex
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -2934,6 +3038,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` comment :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` creationInfo :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` author
+
+   .. container:: description
+
+      Contact information for a person.
+
+
 
 
 
@@ -3543,12 +3653,6 @@
 
 					content type: `anyURI <appendices.html#glossary-anyuri>`_
 
-   .. container:: description
-
-      The Site Description this Analysis object refers to.
-
-
-
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -3600,6 +3704,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` creationInfo :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` author
+
+   .. container:: description
+
+      Contact information for a person.
+
+
 
 
 
@@ -4170,6 +4280,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` comment :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` creationInfo :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` author
 
+   .. container:: description
+
+      Contact information for a person.
+
+
+
 
 
 
@@ -4653,6 +4769,14 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` resonanceFrequency
 
+   .. container:: description
+
+      Resonance frequency of the soil column at each location/site.
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -4729,6 +4853,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` resonanceFrequencyQindex1
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -4829,6 +4959,15 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` resonanceFrequencyReference
+
+   .. container:: description
+
+      Literature or web reference providing detailed information
+      on the methodology adopted for determining the resonance frequency.
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -5165,6 +5304,14 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityS30
 
+   .. container:: description
+
+      Average shear-wave velocity between 0 and 30 meters depth.
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -5241,6 +5388,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityS30Qindex1
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -5387,6 +5540,15 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityS30Reference
+
+   .. container:: description
+
+      Literature or web reference providing detailed information
+      on the methodology adopted for determining the velocityS30 value.
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -5737,6 +5899,12 @@
 
 					range: velocityProfileCount :math:`\ge` 0
 
+   .. container:: description
+
+      Number of Velocity profile(s) that are available for this site.
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -5763,6 +5931,12 @@
 					content type: `decimal <appendices.html#glossary-decimal>`_
 
 					range: sptLogsCount :math:`\ge` 0
+
+   .. container:: description
+
+      Number of SPT log profile(s) that are available for this site.
+
+
 
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
@@ -5791,6 +5965,12 @@
 
 					range: cptLogsCount :math:`\ge` 0
 
+   .. container:: description
+
+      Number of CPT log profile(s) that are available for this site.
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -5818,6 +5998,12 @@
 
 					range: boreholeLogsCount :math:`\ge` 0
 
+   .. container:: description
+
+      Number of borehole log profile(s) that are available for this site.
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -5830,6 +6016,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile
+
+   .. container:: description
+
+      One or more velocity profiles associated with this analysis.
+
+
 
 
 
@@ -5937,6 +6129,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityP
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -6014,6 +6212,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityS
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -6090,6 +6294,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` density
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -6199,6 +6409,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` layerThickness :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` layerTopDepth
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -6275,6 +6491,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` layerThickness :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` layerBottomDepth
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -6353,6 +6575,12 @@
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileQindex1
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -6429,6 +6657,12 @@
    .. container:: crumb
 
       SERA_quakeml :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteCharacterizationParameters :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileReference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 

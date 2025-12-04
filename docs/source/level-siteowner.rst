@@ -118,6 +118,14 @@
 
       siteOwner :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` contact
 
+   .. container:: description
+
+      Contact person for this site.
+
+      Contact information for a person. Includes personal informational and institution affiliation.
+
+
+
 
 
 
@@ -148,6 +156,12 @@
    .. container:: crumb
 
       siteOwner :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` contact :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` person
+
+   .. container:: description
+
+      Contact information for a person.
+
+
 
 
 

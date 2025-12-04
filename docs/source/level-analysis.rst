@@ -99,12 +99,6 @@
 
 					content type: `anyURI <appendices.html#glossary-anyuri>`_
 
-   .. container:: description
-
-      The Site Description this Analysis object refers to.
-
-
-
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -156,6 +150,12 @@
    .. container:: crumb
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` creationInfo :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` author
+
+   .. container:: description
+
+      Contact information for a person.
+
+
 
 
 
@@ -726,6 +726,12 @@
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` comment :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` creationInfo :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` author
 
+   .. container:: description
+
+      Contact information for a person.
+
+
+
 
 
 
@@ -1209,6 +1215,14 @@
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` resonanceFrequency
 
+   .. container:: description
+
+      Resonance frequency of the soil column at each location/site.
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -1285,6 +1299,12 @@
    .. container:: crumb
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` resonanceFrequencyQindex1
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -1385,6 +1405,15 @@
    .. container:: crumb
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` resonanceFrequencyReference
+
+   .. container:: description
+
+      Literature or web reference providing detailed information
+      on the methodology adopted for determining the resonance frequency.
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -1721,6 +1750,14 @@
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityS30
 
+   .. container:: description
+
+      Average shear-wave velocity between 0 and 30 meters depth.
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -1797,6 +1834,12 @@
    .. container:: crumb
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityS30Qindex1
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -1943,6 +1986,15 @@
    .. container:: crumb
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityS30Reference
+
+   .. container:: description
+
+      Literature or web reference providing detailed information
+      on the methodology adopted for determining the velocityS30 value.
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -2293,6 +2345,12 @@
 
 					range: velocityProfileCount :math:`\ge` 0
 
+   .. container:: description
+
+      Number of Velocity profile(s) that are available for this site.
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -2319,6 +2377,12 @@
 					content type: `decimal <appendices.html#glossary-decimal>`_
 
 					range: sptLogsCount :math:`\ge` 0
+
+   .. container:: description
+
+      Number of SPT log profile(s) that are available for this site.
+
+
 
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
@@ -2347,6 +2411,12 @@
 
 					range: cptLogsCount :math:`\ge` 0
 
+   .. container:: description
+
+      Number of CPT log profile(s) that are available for this site.
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -2374,6 +2444,12 @@
 
 					range: boreholeLogsCount :math:`\ge` 0
 
+   .. container:: description
+
+      Number of borehole log profile(s) that are available for this site.
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -2386,6 +2462,12 @@
    .. container:: crumb
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile
+
+   .. container:: description
+
+      One or more velocity profiles associated with this analysis.
+
+
 
 
 
@@ -2493,6 +2575,12 @@
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityP
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -2570,6 +2658,12 @@
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityS
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -2646,6 +2740,12 @@
    .. container:: crumb
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` density
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -2755,6 +2855,12 @@
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` layerThickness :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` layerTopDepth
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -2831,6 +2937,12 @@
    .. container:: crumb
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfile :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileData :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` layerThickness :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` layerBottomDepth
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -2909,6 +3021,12 @@
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileQindex1
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -2985,6 +3103,12 @@
    .. container:: crumb
 
       analysis :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` velocityProfileReference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 

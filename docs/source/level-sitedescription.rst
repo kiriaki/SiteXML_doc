@@ -55,8 +55,8 @@
       :ref:`\<maxDistanceFromStation\><siteDescription-maxDistanceFromStation>`, , "optional" 
       :ref:`\<siteTopography\><siteDescription-siteTopography>`, , "optional" 
       :ref:`\<siteMorphology\><siteDescription-siteMorphology>`, , "optional" 
-      :ref:`\<preferredSiteAnalysisID\><siteDescription-preferredSiteAnalysisID>`, anyURI, ":red:`required`" 
-      :ref:`\<preferredVelocityProfileID\><siteDescription-preferredVelocityProfileID>`, anyURI, ":red:`required`" 
+      :ref:`\<preferredSiteAnalysisID\><siteDescription-preferredSiteAnalysisID>`, anyURI, "optional" 
+      :ref:`\<preferredVelocityProfileID\><siteDescription-preferredVelocityProfileID>`, anyURI, "optional" 
       :ref:`\<overallQindex\><siteDescription-overallQindex>`, , "optional" 
       :ref:`\<comment\><siteDescription-comment>`, , "optional, many" 
 
@@ -97,6 +97,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` latitude
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -175,6 +181,12 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` longitude
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -251,6 +263,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` altitude
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -329,6 +347,12 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` minDistanceFromStation
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -406,6 +430,12 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` maxDistanceFromStation
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -482,6 +512,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteTopography
+
+   .. container:: description
+
+      Quantitative description of the surface.
+
+
 
 
 
@@ -566,6 +602,12 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology
 
+   .. container:: description
+
+      Site Indicators related to the morpohology of a site.
+
+
+
 
 
 
@@ -620,12 +662,6 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
-   .. container:: description
-
-      This in not included in the QuakeML 2.0 draft
-
-
-
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -649,6 +685,13 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
+   .. container:: description
+
+      Ground type according to Eurocode 8 (EC8 § 3.1.2, Table 3.1),
+      based on the velocityS30 value and the geotechnical description.
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -661,6 +704,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteClassEC8Qindex1
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -738,6 +787,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteClassEC8Reference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -944,12 +999,6 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteClassEC8Reference :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` literatureSource :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` language
 
-   .. container:: description
-
-      Code of the language.
-
-
-
 
 
 
@@ -1080,6 +1129,12 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` bedrockDepth
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -1157,6 +1212,12 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` bedrockDepthQindex1
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -1233,6 +1294,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` bedrockDepthReference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -1439,12 +1506,6 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` bedrockDepthReference :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` literatureSource :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` language
 
-   .. container:: description
-
-      Code of the language.
-
-
-
 
 
 
@@ -1577,7 +1638,7 @@
 
    .. container:: description
 
-      This is not included in the QuakeML 2.0 draft
+      This type is used to represent real values with uncertainty.
 
 
 
@@ -1658,6 +1719,12 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` h800Qindex1
 
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
+
 
 
 
@@ -1734,6 +1801,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` h800Reference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -1940,12 +2013,6 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` h800Reference :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` literatureSource :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` language
 
-   .. container:: description
-
-      Code of the language.
-
-
-
 
 
 
@@ -2086,6 +2153,12 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
+   .. container:: description
+
+      Free text description of the surface geology of a site
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -2098,6 +2171,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` geologicalUnitQindex1
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -2186,6 +2265,13 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
+   .. container:: description
+
+      Scale of geological map used for the description of
+      surface geology provided in geologicalUnit
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -2209,6 +2295,13 @@
 
 					content type: `string <appendices.html#glossary-string>`_
 
+   .. container:: description
+
+      Description of the surface geology according to a
+      Unified, Pan-European Map
+
+
+
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
@@ -2221,6 +2314,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` geologicalUnitReference
+
+   .. container:: description
+
+      This type is used to provide reference information for site indicators.
+
+
 
 
 
@@ -2427,12 +2526,6 @@
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` siteMorphology :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` geologicalUnitReference :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` literatureSource :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` language
 
-   .. container:: description
-
-      Code of the language.
-
-
-
 
 
 
@@ -2555,7 +2648,7 @@
 
 .. _sitedescription-preferredsiteanalysisid:
 
-<preferredSiteAnalysisID>     :red:`required`
+<preferredSiteAnalysisID>
 ------------------------------------------------------------
 .. container:: hatnote hatnote-gray
 
@@ -2573,19 +2666,12 @@
 
 					content type: `anyURI <appendices.html#glossary-anyuri>`_
 
-   .. container:: description
-
-      It is mandatory to select one Site Analysis object as the preferred.
-      The Overall Quality index of the Site Characterization will be calculated using the preferred analysis.
-
-
-
 
 :raw-latex:`\noindent\rule{\textwidth}{1pt}`
 
 .. _sitedescription-preferredvelocityprofileid:
 
-<preferredVelocityProfileID>     :red:`required`
+<preferredVelocityProfileID>
 ------------------------------------------------------------
 .. container:: hatnote hatnote-gray
 
@@ -2615,6 +2701,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` overallQindex
+
+   .. container:: description
+
+      This type is used to represent real values with uncertainty.
+
+
 
 
 
@@ -2778,6 +2870,12 @@
    .. container:: crumb
 
       siteDescription :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` comment :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` creationInfo :raw-html:`&rarr;`:raw-latex:`$\rightarrow$` author
+
+   .. container:: description
+
+      Contact information for a person.
+
+
 
 
 
